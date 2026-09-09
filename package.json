@@ -1,0 +1,17 @@
+{
+  "name": "evinced-playwright-home-exercise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Evinced Playwright JS SDK home exercise - a11y-audits.com",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "codegen": "playwright codegen https://a11y-audits.com/",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@evinced/js-playwright-sdk": "2.56.0",
+    "@playwright/test": "^1.63.0",
+    "dotenv": "^16.4.5"
+  }
+}

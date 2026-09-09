@@ -1,0 +1,20 @@
+# Evinced SDK project configuration (auto-loaded from project root).
+switchOn: true
+
+scan:
+  iframes: true
+  # Capture screenshots that highlight each accessibility issue in the report.
+  screenshots:
+    enabled: true
+
+report:
+  format: html
+  outputDir: ./evincedReports
+  fileName: aggregatedReport
+  # Merge every test's results into one consolidated HTML report.
+  aggregate: true
+  tmpDir: ./evincedReports/tmp
+
+platform:
+  upload:
+    enabled: false
